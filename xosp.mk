@@ -18,10 +18,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from bacon device
 $(call inherit-product, device/oneplus/bacon/bacon.mk)
 
-# Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+# Inherit some common XOSP stuff.
+$(call inherit-product, vendor/xosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/xosp/config/xosp.mk)
 
-PRODUCT_NAME := cm_bacon
+PRODUCT_NAME := xosp_bacon
 PRODUCT_DEVICE := bacon
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_MODEL := A0001
@@ -32,6 +33,7 @@ PRODUCT_BRAND := oneplus
 TARGET_VENDOR := oneplus
 TARGET_VENDOR_PRODUCT_NAME := bacon
 TARGET_VENDOR_DEVICE_NAME := A0001
+RELEASE_TYPE := XOSP_OFFICIAL
 PRODUCT_BUILD_PROP_OVERRIDES += TARGET_DEVICE=A0001 PRODUCT_NAME=bacon
 
 ## Use the latest approved GMS identifiers unless running a signed build
