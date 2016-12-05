@@ -16,7 +16,9 @@
 <changelog bulletedList="true">
     
     <changelogversion versionName="RL7 Revision 1" changeDate="Dec 02,2016">
-        <changelogtext>Initial Nougat Release, nothing to see here...</changelogtext>
+        <changelogtext>Initial Nougat Release...</changelogtext>
+        <changelogtext>Disclaimer:SultanXDA blobs will be added on 2nd release</changelogtext>
+        <changelogtext>They wont be added right away because some testing is needed</changelogtext>
     </changelogversion>
 
 </changelog>
