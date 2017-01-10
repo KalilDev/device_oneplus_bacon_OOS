@@ -13,19 +13,19 @@
 # limitations under the License.
 
 # Inherit from those products. Most specific first.
-$(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit from bacon device
 $(call inherit-product, device/oneplus/bacon/bacon.mk)
 
-# Inherit AEX Stuff
-$(call inherit-product, vendor/aosp/common.mk)
+# Inherit some common CM stuff.
+$(call inherit-product, vendor/cos/common.mk)
 
-PRODUCT_NAME := aosp_bacon
+COS_RELEASE=true
+PRODUCT_NAME := cos_bacon
 PRODUCT_DEVICE := bacon
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_MODEL := A0001
-EXTENDED_BUILD_TYPE := Oxygenated
 
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
