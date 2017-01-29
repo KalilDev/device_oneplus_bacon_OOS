@@ -1,8 +1,8 @@
 [
   {
-    "repository": "LineageOS/android_device_oppo_common",
+    "repository": "kishpatel1998/android_device_oppo_common",
     "target_path": "device/oppo/common",
-    "branch": "cm-14.1"
+    "branch": "AEX"
   },
   {
     "repository": "LineageOS/android_kernel_oneplus_msm8974",
