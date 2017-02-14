@@ -33,7 +33,6 @@ PRODUCT_BRAND := oneplus
 TARGET_VENDOR := oneplus
 TARGET_VENDOR_PRODUCT_NAME := bacon
 TARGET_VENDOR_DEVICE_NAME := A0001
-RELEASE_TYPE := XOSP_OFFICIAL
 PRODUCT_BUILD_PROP_OVERRIDES += TARGET_DEVICE=A0001 PRODUCT_NAME=bacon
 
 ## Use the latest approved GMS identifiers unless running a signed build
