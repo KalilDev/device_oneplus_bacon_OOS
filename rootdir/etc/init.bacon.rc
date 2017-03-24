@@ -54,8 +54,6 @@ on fs
     mkdir /persist/data/tz 0700 system system
 
 on boot
-    #FUCK HW KEYS
-    echo "1" > /proc/touchpanel/keypad_enable
     # bluetooth
     chown bluetooth bluetooth /sys/module/bluetooth_power/parameters/power
     chown bluetooth bluetooth /sys/class/rfkill/rfkill0/type
