@@ -21,7 +21,7 @@ $(call inherit-product, device/oneplus/bacon/bacon.mk)
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/cos/common.mk)
 
-COS_RELEASE=true
+COS_BUILD_TYPE := Oxygenated
 PRODUCT_NAME := cos_bacon
 PRODUCT_DEVICE := bacon
 PRODUCT_MANUFACTURER := OnePlus
